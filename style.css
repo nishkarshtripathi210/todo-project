@@ -71,7 +71,20 @@ body.dark #searchBox{background:rgba(255,255,255,0.06);border:1px solid rgba(255
   box-shadow:inset 0 1px 0 rgba(0,0,0,0.03);
 }
 body.dark #myInput{background:rgba(255,255,255,0.03);color:#e6edf3}
-#prioSelect{padding:10px;border-radius:10px;border:none;background:var(--card-bg)}
+#prioSelect {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: var(--card-bg);
+  color: inherit;
+  outline: none;
+  cursor: pointer;
+}
+
+body.dark #prioSelect option {
+  background-color: #12161f;
+  color: #e6edf3;
+}
 
 /* buttons */
 .controls{display:flex;gap:8px;align-items:center}
