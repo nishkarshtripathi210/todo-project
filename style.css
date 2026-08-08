@@ -1,5 +1,6 @@
 :root{
-  --bg1: linear-gradient(135deg,#84fab0,#8fd3f4);
+  
+  --bg1: linear-gradient(135deg, #0f1724, #001f2e);
   --glass: rgba(255,255,255,0.18);
   --muted: #6b7280;
   --accent:#0077ff;
