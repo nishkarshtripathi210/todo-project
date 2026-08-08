@@ -165,8 +165,10 @@ function doSearch(q){
 }
 
 // theme
+// theme
+
 function loadTheme(){
-  const t = localStorage.getItem('pro_theme') || 'light';
+  const t = localStorage.getItem('pro_theme') || 'dark';
   if(t==='dark') document.body.classList.add('dark');
   darkToggle.textContent = t==='dark' ? '☀️' : '🌙';
 }
